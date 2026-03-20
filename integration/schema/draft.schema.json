@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://secureai.local/social-workspace/draft.schema.json",
+  "$id": "https://example.local/social-workspace/draft.schema.json",
   "title": "Social Workspace Draft",
   "type": "object",
   "required": [

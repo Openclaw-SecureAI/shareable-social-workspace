@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://secureai.local/social-workspace/publish-ready.schema.json",
+  "$id": "https://example.local/social-workspace/publish-ready.schema.json",
   "title": "Publish Ready Social Draft",
   "type": "object",
   "required": [
