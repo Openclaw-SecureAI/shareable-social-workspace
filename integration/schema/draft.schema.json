@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://secureai.local/social-workspace/draft.schema.json",
+  "title": "Social Workspace Draft",
+  "type": "object",
+  "required": [
+    "id",
+    "platform",
+    "target",
+    "status",
+    "created_at",
+    "updated_at",
+    "topic",
+    "content_type",
+    "brand_profile",
+    "text",
+    "visual",
+    "approval",
+    "publishing",
+    "notes"
+  ],
+  "properties": {
+    "id": {"type": "string"},
+    "platform": {"type": "string"},
+    "target": {"type": "string"},
+    "status": {"type": "string", "enum": ["pending", "approved", "scheduled", "published", "rejected"]},
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "topic": {"type": "string"},
+    "content_type": {"type": "string"},
+    "brand_profile": {"type": "string"},
+    "text": {
+      "type": "object",
+      "required": ["hook", "body", "cta", "full_post"],
+      "properties": {
+        "hook": {"type": "string"},
+        "body": {"type": "string"},
+        "cta": {"type": "string"},
+        "full_post": {"type": "string"}
+      }
+    },
+    "visual": {
+      "type": "object",
+      "required": ["concept", "headline", "subtext", "asset_path", "preview_path"],
+      "properties": {
+        "concept": {"type": "string"},
+        "headline": {"type": "string"},
+        "subtext": {"type": "string"},
+        "asset_path": {"type": "string"},
+        "preview_path": {"type": "string"}
+      }
+    },
+    "approval": {
+      "type": "object",
+      "required": ["required", "approved", "approved_by", "approved_at"],
+      "properties": {
+        "required": {"type": "boolean"},
+        "approved": {"type": "boolean"},
+        "approved_by": {"type": ["string", "null"]},
+        "approved_at": {"type": ["string", "null"]}
+      }
+    },
+    "publishing": {
+      "type": "object",
+      "required": ["schedule_at", "timezone", "publish_action", "provider", "external_job_id", "published_url"],
+      "properties": {
+        "schedule_at": {"type": ["string", "null"]},
+        "timezone": {"type": ["string", "null"]},
+        "publish_action": {"type": ["string", "null"]},
+        "provider": {"type": ["string", "null"]},
+        "external_job_id": {"type": ["string", "null"]},
+        "published_url": {"type": ["string", "null"]}
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

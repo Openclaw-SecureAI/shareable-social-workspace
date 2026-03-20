@@ -1,0 +1,50 @@
+{
+  "id": "2026-03-20-linkedin-example-systems-create-leverage",
+  "platform": "linkedin",
+  "target": "personal-profile",
+  "status": "approved",
+  "created_at": "2026-03-20T10:00:00+00:00",
+  "updated_at": "2026-03-20T10:15:00+00:00",
+  "topic": "Why small systems create business leverage",
+  "content_type": "text-image",
+  "post_type": "educational",
+  "brand_profile": "your-brand-profile",
+  "generation": {
+    "audience": "small business owners",
+    "angle": "show practical value without jargon",
+    "version": 1,
+    "last_action": "create-post-package"
+  },
+  "text": {
+    "hook": "Why small systems create business leverage",
+    "body": "The value is not just speed. It is cleaner execution, fewer dropped tasks, and more room for better decisions.",
+    "cta": "What workflow would you systemize first?",
+    "full_post": "Why small systems create business leverage\n\nThe value is not just speed. It is cleaner execution, fewer dropped tasks, and more room for better decisions.\n\nThis matters especially for small business owners.\n\nLeverage comes from repeatable systems, not repeated manual effort.\n\nWhat workflow would you systemize first?"
+  },
+  "visual": {
+    "concept": "educational insight card with clear takeaway",
+    "headline": "Small systems create leverage",
+    "subtext": "Less friction. Better execution. More room to grow.",
+    "variant": "indigo-steel",
+    "asset_path": "integration/outputs/images/2026-03-20-linkedin-example-systems-create-leverage.png",
+    "preview_path": "integration/outputs/previews/2026-03-20-linkedin-example-systems-create-leverage-preview.png"
+  },
+  "approval": {
+    "required": true,
+    "approved": true,
+    "approved_by": "reviewer",
+    "approved_at": "2026-03-20T10:15:00+00:00"
+  },
+  "publishing": {
+    "schedule_at": null,
+    "timezone": "UTC",
+    "publish_action": "publish-now",
+    "provider": "upload_post",
+    "external_job_id": null,
+    "published_url": null
+  },
+  "notes": [
+    "2026-03-20T10:05:00+00:00 :: revision-request :: tighten opening paragraph",
+    "2026-03-20T10:15:00+00:00 :: approval-note :: approved example"
+  ]
+}

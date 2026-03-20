@@ -1,0 +1,6 @@
+{
+  "timezone": "UTC",
+  "approval_required_before_schedule": true,
+  "default_schedule_window": null,
+  "allow_schedule_only_from_approved": true
+}

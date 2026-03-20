@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://secureai.local/social-workspace/publish-ready.schema.json",
+  "title": "Publish Ready Social Draft",
+  "type": "object",
+  "required": [
+    "draft_id",
+    "platform",
+    "target",
+    "content_type",
+    "text",
+    "asset_path",
+    "publish_action",
+    "approval_required",
+    "approved",
+    "provider"
+  ],
+  "properties": {
+    "draft_id": {"type": "string"},
+    "platform": {"type": "string"},
+    "target": {"type": "string"},
+    "content_type": {"type": "string"},
+    "text": {"type": "string"},
+    "asset_path": {"type": ["string", "null"]},
+    "publish_action": {"type": "string", "enum": ["publish-now", "schedule"]},
+    "scheduled_for": {"type": ["string", "null"]},
+    "timezone": {"type": ["string", "null"]},
+    "approval_required": {"type": "boolean"},
+    "approved": {"type": "boolean"},
+    "provider": {"type": ["string", "null"]},
+    "provider_payload": {"type": ["object", "null"]}
+  }
+}

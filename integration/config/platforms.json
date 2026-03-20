@@ -1,0 +1,8 @@
+{
+  "linkedin": {
+    "enabled": true,
+    "target": "personal-profile",
+    "supports": ["text", "image", "document", "video"],
+    "publishing_backend": null
+  }
+}

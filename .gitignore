@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Secrets / local env
+.env
+.env.*
+*.local.json
+
+# Generated local artifacts
+integration/outputs/images/*.png
+integration/outputs/previews/*.png
+integration/drafts/pending/*.json
+integration/drafts/approved/*.json
+integration/drafts/scheduled/*.json
+integration/drafts/published/*.json
+integration/drafts/rejected/*.json
+!integration/examples/**
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

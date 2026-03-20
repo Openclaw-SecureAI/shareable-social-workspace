@@ -1,0 +1,14 @@
+{
+  "default_provider": "upload_post",
+  "providers": {
+    "upload_post": {
+      "enabled": true,
+      "base_url": "https://api.upload-post.com/api",
+      "profile_name": "YOUR_UPLOAD_POST_PROFILE",
+      "api_key_env": "UPLOAD_POST_API_KEY"
+    },
+    "linkedin_direct": {
+      "enabled": false
+    }
+  }
+}

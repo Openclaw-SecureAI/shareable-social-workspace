@@ -1,0 +1,10 @@
+{
+  "brand_profile": "your-brand-profile",
+  "brand_display_name": "Your Brand Name",
+  "platform": "linkedin",
+  "target": "personal-profile",
+  "approval_required": true,
+  "timezone": "UTC",
+  "default_output_image_ext": ".png",
+  "visual_footer_text": "systems \u2022 clarity \u2022 consistency \u2022 leverage"
+}
